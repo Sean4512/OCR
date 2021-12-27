@@ -1,1 +1,0 @@
-# Traditional_Chinese_OCR
