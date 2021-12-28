@@ -65,14 +65,15 @@ inference模型一般是模型訓練，把模型結構和模型參數保存在�
 ### run.py
 是用來推理圖片，並輸出答案至當前資料夾的qwe.txt，是由tools/infer/predict_system.py改寫而來。
   - 以下加載的模型都是inference模型，以及除了Text Recognition模型另外兩個模型都是下載PaddleOCR已訓練好的推理模型
-  - Text Detection = ch_ppocr_server_v2.0_det
-  - Text Direction Classification = ch_ppocr_mobile_v2.0_cls
+  - Text Detection = [ch_ppocr_server_v2.0_det](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_server_v2.0_det_infer.tar)
+  - Text Direction Classification = [ch_ppocr_mobile_v2.0_cls](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar)
+  - Text Recognition = [這裡下載](https://drive.google.com/drive/folders/17rPIFaIg8CTusj3aj9rb2JypuEf6vZ5o?usp=sharing)
   - 請至[這裡下載](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.4/doc/doc_en/models_list_en.md)
   - run.py裡面參數有
      - args.rec_char_dict_path="字典路徑"
-     - args.det_model_dir= "Text Detection模型路徑"
-     - args.cls_model_dir= "Text Direction Classification模型路徑"
-     - args.rec_model_dir= "Text Recognition模型路徑"
+     - args.det_model_dir= "Text Detection模型資料夾路徑"
+     - args.cls_model_dir= "Text Direction Classification模型資料夾路徑"
+     - args.rec_model_dir= "Text Recognition模型資料夾路徑"
      - args.image_dir = "待推圖片的路徑" 這裡可以切換至public 或 private
      - args.use_angle_cls = True 是否開啟方向識別功能
      - args.det_db_thresh = 0.3
