@@ -67,7 +67,7 @@ inference模型一般是模型訓練，把模型結構和模型參數保存在�
   - 以下加載的模型都是inference模型，以及除了Text Recognition模型另外兩個模型都是下載PaddleOCR已訓練好的推理模型
   - Text Detection = [ch_ppocr_server_v2.0_det](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_server_v2.0_det_infer.tar)
   - Text Direction Classification = [ch_ppocr_mobile_v2.0_cls](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar)
-  - Text Recognition = [這裡下載](https://drive.google.com/drive/folders/17rPIFaIg8CTusj3aj9rb2JypuEf6vZ5o?usp=sharing)
+  - Text Recognition = [這裡下載](https://drive.google.com/drive/folders/1ngGfGvssxn1a2Yzda4T8taoxZuwheKJD?usp=sharing)
   - 請至[這裡下載](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.4/doc/doc_en/models_list_en.md)
   - run.py裡面參數有
      - args.rec_char_dict_path="字典路徑"
