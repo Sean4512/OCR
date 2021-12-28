@@ -346,7 +346,7 @@ if __name__ == "__main__":
     args.rec_char_dict_path="./ppocr/utils/dict/chinese_cht_dict.txt"
     args.det_model_dir="./output/ch_ppocr_server_v2.0_det_infer/"
     args.cls_model_dir="./output/ch_ppocr_mobile_v2.0_cls_infer/"
-    args.rec_model_dir="./output/rec_T_inference/12_18/"
+    args.rec_model_dir="./output/REC/"
     args.image_dir = "./data/public"
     #args.image_dir = "./tools/CAPTCHA_output"
     #args.use_dilation = True
