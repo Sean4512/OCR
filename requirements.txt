@@ -12,4 +12,3 @@ lxml
 premailer
 openpyxl
 numba
-threaded
