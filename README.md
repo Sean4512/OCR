@@ -33,9 +33,11 @@ PaddleOCR網址-https://github.com/PaddlePaddle/PaddleOCR
 ### BCET
 #### color.py是BCET主程式
 是對圖片使用平衡對比度增強技術(Balance Contrast Enhancement Technique)達到色彩空間轉換的效果，使用於資料擴增與推理時使用
+  -這邊有分成CPU運算與GPU加速運算，這樣做的原因是要處理的資料量很大，只單純使用CPU計算，會花費太多時間，使用GPU加速計算比CPU計算大約快了1.5倍
   - python useGPU_BCET.py
      - ImageFolder_path = "輸入PPOCRLabel.py輸出的圖片資料夾路徑"
 	 - save_path = "輸入色彩轉換後圖檔的存檔路徑"
+  - CPU版本，python BCET_noGPU.py
 
 ## 訓練流程
 可以用來訓練Text Detection、Text Direction Classification和Text Recognition...等
